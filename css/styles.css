@@ -1,0 +1,142 @@
+h2{
+    font-size: 2em;
+}
+p{
+    font-size: 1.2em;
+}
+.body{
+    background-color: #c6def7;
+    color: #1e2b4d;
+}
+.header{
+    width: 100%;
+    padding: 0.5em;
+    background-color: #2e4e9f;
+    border-radius: 0 0 0.5em 0.5em;
+    color: aliceblue;
+}
+.header-contenedor{
+    padding-bottom: 1em;
+}
+.header-titulo{
+    font-size: 2.5em;
+}
+.nav a{
+    text-decoration: none;  
+}
+.nav-lista{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+.nav-item{
+    cursor: pointer;
+    font-size: 1.1em;
+    color: aliceblue; 
+}
+.nav-item:hover{
+    color: #c6def7;
+    font-size: 1.11em;
+}
+
+.main{
+    padding: 0.5em;
+}
+
+.coleccion-contenedor{
+    padding-bottom: 1em;
+}
+
+.coleccion-tabla{
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.coleccion-tabla img{
+    border: 1px solid black;
+    border-radius: 0.5em;
+
+}
+
+.coleccion-tabla img:hover{
+    opacity: 0.5;
+    border: 2px solid #1e2b4d;
+}
+
+.categorias{
+    padding: 1em 0;
+}
+
+.categorias-lista{
+    padding: 1em 2em;
+    list-style: circle;
+}
+
+.nosotros-descripcion{
+    width: 80%;
+    margin: 1em ;
+    padding: 1em;
+    background-color: aliceblue;
+    border-radius: 0.8em;
+}
+
+.suscripcion-formulario{
+    max-width: 300px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.suscripcion-campo{
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+.suscripcion-campo label{
+    color: #1e2b4d;
+    font-weight: bold; 
+}
+.suscripcion-campo input, textarea{
+    max-width: 20em;
+    padding: 0.5em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #1e2b4d;
+}
+.suscripcion-campo textarea{
+    height: 70px;
+    border: 2px solid;
+}
+.suscripcion_button{
+    background-color: #1e2b4d;
+    color: antiquewhite;
+    padding: 0.4em;
+    margin: 0.5em; 
+    width: 100px;
+}
+.suscripcion_button:hover{
+    cursor: pointer;
+    background-color: #5180b3;
+}
+
+.footer{
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    background-color: #1e2b4d;
+    color: aliceblue;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+}

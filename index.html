@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="eS">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AURA</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="header-contenedor">
+        <h1 class="header-titulo">AURA</h1>
+        <p class="header-eslogan">Sé tú, viste diferente</p>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-lista">
+          <a href="#coleccion"><li class="nav-item">Inicio</li></a>
+          <a href="#categorias"><li class="nav-item">Categorías</li></a>
+          <a href="#nosotros"><li class="nav-item">Nosotros</li></a>
+          <a href="#suscripcion"><li class="nav-item">Suscríbete</li></a>
+          <a href="#contacto"><li class="nav-item">Contáctanos</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- NUEVA COLECCIÓN -->
+      <section class="coleccion" id="coleccion">
+        <div class="coleccion-contenedor">
+          <h2 class="coleccion-titulo">Nueva colección</h2>
+
+          <p class="coleccion-descripcion">
+            Esta es nuestra nueva colección inspirada en la comodidad y perfecta
+            para cada ocasión que necesitas en tu día a día.
+          </p>
+        </div>
+
+        <table class="coleccion-tabla">
+          <tr class="coleccion-fila">
+            <td class="coleccion-celda">
+              <img
+                class="coleccion-imagen"
+                src="/img/conjunto_deportivo_F.jpeg"
+                alt="Conjunto deportivo femenino"
+              />
+            </td>
+
+            <td class="coleccion-celda">
+              <img
+                class="coleccion-imagen"
+                src="/img/conjunto_formal_F.jpeg"
+                alt="Conjunto formal femenino"
+              />
+            </td>
+
+            <td class="coleccion-celda">
+              <img
+                class="coleccion-imagen"
+                src="/img/conjunto_urbano_F.jpeg"
+                alt="Conjunto urbano femenino"
+              />
+            </td>
+          </tr>
+
+          <tr class="coleccion-fila">
+            <td class="coleccion-celda">
+              <img
+                class="coleccion-imagen"
+                src="/img/conjunto_deportivo_M.jpeg"
+                alt="Conjunto deportivo masculino"
+              />
+            </td>
+
+            <td class="coleccion-celda">
+              <img
+                class="coleccion-imagen"
+                src="/img/conjunto_formal_M.jpeg"
+                alt="Conjunto formal masculino"
+              />
+            </td>
+
+            <td class="coleccion-celda">
+              <img
+                class="coleccion-imagen"
+                src="/img/conjunto_urbano_M.jpeg"
+                alt="Conjunto urbano masculino"
+              />
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- CATEGORÍAS -->
+      <section class="categorias" id="categorias">
+        <div class="categorias-contenedor">
+          <h2 class="categorias-titulo">Categorías</h2>
+          <p class="categorias-descripcion">
+            Tenemos diferentes categorías para tu día a día:
+          </p>
+        </div>
+
+        <ul class="categorias-lista">
+          <li class="categorias-item">Conjuntos deportivos.</li>
+          <li class="categorias-item">Conjuntos formales.</li>
+          <li class="categorias-item">Conjuntos urbanos.</li>
+        </ul>
+      </section>
+
+      <!-- SOBRE NOSOTROS -->
+      <section class="nosotros" id="nosotros">
+        <h2 class="nosotros-titulo">Sobre nosotros</h2>
+        <p class="nosotros-descripcion">
+          En AURA creemos que la ropa es mucho más que una forma de vestir: es
+          una manera de expresar quién eres. Creamos prendas pensadas para
+          quienes buscan reflejar su personalidad, seguridad y estilo en cada
+          detalle. Nuestra marca nace de la pasión por la moda y el deseo de
+          ofrecer diseños que combinen calidad, autenticidad y comodidad,
+          creando piezas que te hagan sentir bien y representar tu propia
+          esencia. En AURA, cada prenda lleva consigo una actitud: sé tú,
+          destaca y deja tu propia huella.
+        </p>
+      </section>
+
+      <!-- SUSCRIPCIÓN -->
+      <section class="suscripcion" id="suscripcion">
+        <div class="suscripcion-contenedor">
+          <h2 class="suscripcion-titulo">Suscríbete</h2>
+          <p class="suscripcion-descripcion">
+            Déjanos tu nombre y tu correo para mantenerte informado de nuestras
+            últimas actualizaciones y estilos nuevos.
+          </p>
+        </div>
+
+        <form class="suscripcion-formulario" action="" method="post">
+          <div class="suscripcion-campo">
+            <label class="suscripcion-label" for="nombre"> Nombre: </label>
+            <input
+              class="suscripcion-input"
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Digite su nombre"
+              required
+            />
+          </div>
+
+          <div class="suscripcion-campo">
+            <label class="suscripcion-label" for="email"> Correo: </label>
+            <input
+              class="suscripcion-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite su correo"
+              required
+            />
+          </div>
+          <button type="submit" class="suscripcion_button">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <section class="contacto" id="contacto">
+        <h2 class="contacto-titulo">Contáctanos</h2>
+        <ul class="contacto-lista">
+          <li class="contacto-item">
+            <a class="contacto-enlace" href="mailto:aura@gmail.com">
+              aura@gmail.com
+            </a>
+          </li>
+          <li class="contacto-item">
+            Dirección:
+            <a
+              class="contacto-enlace"
+              href="https://www.google.com/maps/search/?api=1&query=Carrera+72+89B-23"
+              target="_blank"
+            >
+              Carrera 72 #89B-23
+            </a>
+          </li>
+          <li class="contacto-item">Horario: Las 24 horas del día</li>
+        </ul>
+      </section>
+
+      <section class="redes-sociales">
+        <h2 class="redes-titulo">Redes sociales</h2>
+        <a class="redes-enlace" href="http://www.facebook.com" target="_blank">
+          Facebook
+        </a>
+        <a
+          class="redes-enlace"
+          href="https://www.instagram.com"
+          target="_blank"
+        >
+          Instagram
+        </a>
+      </section>
+    </footer>
+  </body>
+</html>
